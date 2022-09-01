@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-color: #072d52;
+}
+
+/* HEADING */
+.heading {
+  color: #ffe1c9;
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  padding: 0 10%;
+  margin: 3.5rem 0;
+}
+
+/* BUTTONS CONTAINER */
+.container {
+  padding: 0 20%;
+}
+
+.btn {
+  width: 12rem;
+  height: 12rem;
+  margin: 2%;
+  border: solid 10px;
+  border-radius: 15%;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.greenBtn {
+  background-color: green;
+}
+.redBtn {
+  background-color: red;
+}
+.yellowBtn {
+  background-color: yellow;
+}
+.blueBtn {
+  background-color: blue;
+}
+
+/* JS CLASSES */
+.hidden{
+    visibility: hidden;
+}
+
+.flash{
+    box-shadow: 0 0 20px white;
+    background-color: aliceblue;
+}
+
+.redBg{
+    background-color: red;
+}
+
+.pink{
+    background-color: pink;
+}
